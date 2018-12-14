@@ -9,6 +9,17 @@ include(hunter_configuration_types)
 include(hunter_download)
 include(hunter_pick_scheme)
 
+hunter_add_version(
+    PACKAGE_NAME
+    xcb
+    VERSION
+    "1.13"
+    URL
+    "https://xcb.freedesktop.org/dist/libxcb-1.13.tar.bz2"
+    SHA1
+    212ad5f1f80def80536d78e3d20354a0370e7fe9
+)
+
 # https://xcb.freedesktop.org/dist/
 hunter_add_version(
     PACKAGE_NAME

@@ -9,6 +9,18 @@ include(hunter_configuration_types)
 include(hunter_download)
 include(hunter_pick_scheme)
 
+
+hunter_add_version(
+    PACKAGE_NAME
+    xcb-proto
+    VERSION
+    "1.13"
+    URL
+    "https://xcb.freedesktop.org/dist/xcb-proto-1.13.tar.bz2"
+    SHA1
+    f7fa35ab59af18cecadbe83fe705281dcfd82ffd
+)
+
 # https://xcb.freedesktop.org/dist/
 hunter_add_version(
     PACKAGE_NAME
